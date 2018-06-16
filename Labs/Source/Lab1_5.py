@@ -1,3 +1,4 @@
+
 class Book():
 
     def make_booking(self, **ssmbg):
