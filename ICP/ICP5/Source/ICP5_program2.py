@@ -73,7 +73,7 @@ def Simulate_Clusters():
     K = int(input('Enter the number of Clusters.......'))
     #print('Now Enter the bounds for choosing uniform value....\n')
     p1 = np.array([32,33,36,40,39,31,35.5,30.3,34.3,32.7,39.8,37.2,31.4,38.8,32.6,34.7,35.1,37.5,36.2,39.8])
-    p2 = np.array([20,25,32,26,24,29])
+    p2 = np.array([5.1,5.2,5.3,5.4,5.5,5.6,5.7,5.8,5.9,5.10,5.11,6,6.1])
     X = init_graph(len(p1), p2, p1)
     plt.scatter(X[:, 0], X[:, 1])
     plt.show()
